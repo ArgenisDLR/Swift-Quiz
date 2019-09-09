@@ -54,14 +54,46 @@
 		4DAC82562326BD8B00311FC2 /* Swift Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				4DAC826D2326BF9C00311FC2 /* Supporting Files */,
 				4DAC82572326BD8B00311FC2 /* AppDelegate.swift */,
+				4DAC826A2326BF8100311FC2 /* Model */,
+				4DAC826B2326BF8400311FC2 /* Controller */,
+				4DAC826C2326BF8800311FC2 /* View */,
+			);
+			path = "Swift Quiz";
+			sourceTree = "<group>";
+		};
+		4DAC826A2326BF8100311FC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4DAC826B2326BF8400311FC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				4DAC82592326BD8B00311FC2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4DAC826C2326BF8800311FC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				4DAC825B2326BD8B00311FC2 /* Main.storyboard */,
 				4DAC825E2326BD8C00311FC2 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4DAC826D2326BF9C00311FC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				4DAC82602326BD8C00311FC2 /* LaunchScreen.storyboard */,
 				4DAC82632326BD8C00311FC2 /* Info.plist */,
 			);
-			path = "Swift Quiz";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
